@@ -1,11 +1,3 @@
----
-title: "Solving Markov Chains Problems in R"
-author: "Krye Kuzhinieri"
-date: '2020-08-10'
-output: 
-  html_document:
-    keep_md: True
----
 
 # Required Libraries
   * For this project we will need the following libraries:
