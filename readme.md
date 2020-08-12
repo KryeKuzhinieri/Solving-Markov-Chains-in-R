@@ -115,7 +115,7 @@
 
 * **Question 2:**:
   + Since we have defined our decision variable as the number of tokens Jim has, for Joe to win the game, Jim will have 0 tokens in the end of the game. Further, Jim starts the game with 3 tokens. 
-  + We are looking for N-step Transition Probabilities: **P(3,0)^10^ ** <img src="https://render.githubusercontent.com/render/math?math=P(3,0)^{10}">
+  + We are looking for N-step Transition Probabilities: <img src="https://render.githubusercontent.com/render/math?math=P(3,0)^{10}">
     
     ```r
       #Computing the nth power of the matrix.
@@ -131,7 +131,7 @@
 
 * **Question 3**:
   + The question wants us to find the long term probabilities. That is, after playing the game countless times, what is the probability that Jim will loose the game and Joe will win?
-  + We are looking for Steady State Probabilites:  <img src="https://render.githubusercontent.com/render/math?math=\pi_0=\sum_{i=1}^{5}\pi_i*p_{i0} \quad for \quad j=0,1,2,....,5">
+  + We are looking for Steady State Probabilites:  <img src="https://render.githubusercontent.com/render/math?math=\pi_0=\sum_{i=0}^{5}\pi_i*p_{i0} \quad for \quad i=0,1,2,....,5">
   
     
     ```r
